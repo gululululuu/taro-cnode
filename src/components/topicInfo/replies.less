@@ -1,0 +1,59 @@
+.topic-replies {
+    margin-bottom: 60PX;
+
+    .reply {
+        display: flex;
+        flex-direction: row;
+        margin: 20PX 0;
+        padding: 0 10PX;
+        width: 95%;
+
+        .reply-avatar {
+            width: 30PX;
+            min-width: 30PX;
+            height: 30PX;
+            border-radius: 50%;
+        }
+
+        .reply-right {
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+            padding: 0 10PX;
+
+            .reply-body {
+                display: flex;
+                flex-direction: column;
+                align-items: baseline;
+                width: 100%;
+
+                .reply-top {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    margin-bottom: 10PX;
+                    align-items: center;
+
+                    .reply-liked {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        font-size: 20PX;
+
+                        .icon {
+                            width: 30PX;
+                            height: 30PX;
+                        }
+
+                        .liked-text {
+                            margin: 0 5PX;
+                        }
+                    }
+                }
+            }
+
+
+        }
+    }
+}
